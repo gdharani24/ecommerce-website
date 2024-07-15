@@ -37,7 +37,7 @@ dispatch(addItem(props));
    {props.rating.count > 0 ? 
    (
    <>
-   <button className='btn btn-success' onClick={()=>Navigator('/checkout/${props.id}')}>Buy Now</button>
+   <button className='btn btn-success' onClick={()=>Navigator(`/checkout/${props.id}`)}>Buy Now</button>
    {element.count > 0 ?  
      <button className='btn btn-outline-warning ms-4'
       onClick={()=> Navigator('/cart')}>Add to Cart</button>

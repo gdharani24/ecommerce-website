@@ -5,7 +5,7 @@ import Dashboard from "./Dashboard";
 import Product from "./Product";
 import ECart from './ECart'
 import Checkout from "./checkout";
-
+import Success from "./success"
 export default function Home() {
   return (
     <div>
